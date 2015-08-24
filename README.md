@@ -8,6 +8,7 @@ gollum -- A git-based Wiki
 ## DESCRIPTION
 
 Gollum is a simple wiki system built on top of Git. A Gollum Wiki is simply a git repository (either bare or regular) of a specific nature:
+
 * A Gollum repository's contents are human-editable, unless the repository is bare. Pages are unique text files which may be organized into directories any way you choose. Other content can also be included, for example images, PDFs and headers/footers for your pages.
 * Gollum pages:
 	* May be written in a variety of [markups](#markups).
@@ -47,7 +48,8 @@ Varies depending on operating system, package manager and Ruby installation. Gen
 
 Installation examples for individual systems can be seen [here](https://github.com/gollum/gollum/wiki/Installation).
 
-**Notes:**  
+**Notes**  
+
 * Whichever Ruby implementation you're using, Gollum ships with the appropriate default git adapter. So the above installation procedure is common for both MRI and JRuby.
 * If you're installing from source:
 	* Optionally uninstall any previous versions of Gollum:  
@@ -69,13 +71,15 @@ Installation examples for individual systems can be seen [here](https://github.c
 		[sudo] gem install --no-ri --no-rdoc pkg/gollum*.gem
 		```
 
-### Markups
+### Markups<a name="markups""></a>
 
 Gollum presently ships with support for the following markups:
+
 * [Markdown](http://daringfireball.net/projects/markdown/syntax)
 * [RDoc](http://rdoc.sourceforge.net/)
 
-Since all markups are rendered by the [github-markup](https://github/com/github/markup) gem, you can easily add support for other markups by additional installation:
+Since all markups are rendered by the [github-markup](https://github.com/github/markup) gem, you can easily add support for other markups by additional installation:
+
 * [AsciiDoc](http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/) -- `[sudo] gem install asciidoctor`
 * [Creole](http://www.wikicreole.org/wiki/CheatSheet) -- `[sudo] gem install creole`
 * [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown) -- `[sudo] gem install github-markdown`
