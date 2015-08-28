@@ -1,6 +1,7 @@
 # Inplace Upgrade
 
-This document describes in-place upgrade using Docker. I will save it first.
+This document describes in-place upgrade using Docker. 
+Writing this to understand how the change works
 
 ## Requirements
 
