@@ -1,7 +1,7 @@
 # Inplace Upgrade
 
 This document describes in-place upgrade using Docker. 
-I am writing a line while the document was modified by an engineer before.
+I am writing on the web while the document is modified locally, and I will save it first.
 
 ## Requirements
 
